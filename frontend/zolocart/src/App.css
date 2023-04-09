@@ -1,0 +1,98 @@
+#root {
+  margin:0;
+  padding:0;
+}
+
+.mainHeader{
+  display: flex;
+  background-color: darkorchid;
+  width: 100%;
+  padding:1.5rem 1rem;
+  column-gap: 1rem;
+  justify-content: space-between;
+}
+
+.headerButtons>button{
+  margin-right: 1rem;
+}
+
+.cartIcon{
+  position: relative;
+  font-size: 35px;
+  top: 16%;
+  left:30%;
+  color:paleturquoise;
+  cursor: pointer;
+}
+
+.productBox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: center;
+  column-gap:1.5rem;
+  color:rgb(31, 29, 29);
+  padding:2rem;
+  row-gap: 1.5rem;
+}
+
+.productCard{
+  display: flex;
+  flex-direction: column;
+  column-gap: 50px;
+  width:25%;
+  min-width: 250px;
+  background-color: white;
+  border-radius: 5px;
+  overflow: hidden;
+  font-size: 25px;
+  box-shadow: 3px 3px 10px black;
+  cursor: default;
+}
+
+.productImage{
+  width: 100%;
+  max-width: 400px;
+  border-start-start-radius: 5px;
+  border-start-end-radius: 5px;
+  aspect-ratio: 1/1;
+}
+
+.productBody{
+  padding:0.8rem 0.8rem;
+  font-family:cursive;
+}
+
+.productHeading{
+  font-size: 80%;
+  color:rgb(73, 73, 73);
+  cursor: pointer;
+}
+
+.productDescription{
+  margin:15px 0;
+  font-family: sans-serif;
+  color:rgba(36, 33, 33, 0.918);
+  font-size: 65%;
+}
+
+.productPrice{
+  display: flex;
+  justify-content: space-between;
+  padding:0 10px;
+  font-size:21px;
+  font-weight: 500;
+}
+
+.add-to-cart{
+  color:rgb(22, 21, 21);
+  cursor: pointer;
+}
+
+.cartButton{
+  background-color:rgb(255, 187, 0);
+  color:rgb(29, 27, 27);
+  font-size: 20px;
+  width: 100%;
+  background-image:linear-gradient(gold,yellow,goldenrod);
+}

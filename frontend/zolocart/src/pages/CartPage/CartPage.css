@@ -1,0 +1,98 @@
+h1{
+    color:black;
+}
+
+.cartProductBox{
+    display: flex;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    padding:2rem 2rem;
+    row-gap: 1rem;
+}
+
+.cartProductCard{
+    display: flex;
+    background-color: white;
+    padding:1rem;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.589);
+    border-radius: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Figure{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    margin-right: 20px;
+}
+
+.cartProductImage{
+    height: 95%;
+    max-height: 300px;
+    box-shadow: 0 0 2px black;
+    aspect-ratio: 1/1;
+}
+
+.cartProductBody{
+    text-align: left;
+    padding:1rem 0;
+}
+
+.cartProductHeading{
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(14, 13, 13);
+    font-size: 23px;
+}
+
+
+.cartProductDescription{
+    font-size: 18px;
+    font-family: sans-serif;
+}
+
+.cartQuantityBox{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.cartProductPrice{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.removeButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    width: 100%;
+    background-color: crimson;
+}
+
+.buyButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.5rem;
+    width: 100%;
+    background-image: linear-gradient(blue,rgb(0, 26, 255),rgb(0, 38, 255));
+}
+
+.backButton{
+    position: absolute;
+    padding: 0.5rem 1rem;
+    background-color: rgba(137, 43, 226, 0.932);
+    color:white;
+    border-radius: 10px;
+    top:0.4rem;
+    right:0.3rem;
+}
+
+.backButton:hover{
+    color:white;
+    background-color: blueviolet;
+}
